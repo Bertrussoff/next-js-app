@@ -10,6 +10,3 @@ it("App Router: Works with Client Components (React State)", () => {
   fireEvent.click(screen.getByRole("button"));
   expect(screen.getByRole("heading")).toHaveTextContent("1");
 });
-    expect(screen.getByRole("heading")).toHaveTextContent("1");
-  });
-});
